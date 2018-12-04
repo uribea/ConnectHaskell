@@ -1,5 +1,6 @@
 module Board where
     --Alan Uribe
+    --Germain Vargas
     mkBoard :: Int -> Int -> [[Int]]
     mkBoard n m = 
         if (n >= 0 && m >= 0)
