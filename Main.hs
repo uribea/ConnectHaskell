@@ -4,6 +4,7 @@ import System.IO
 import System.Exit
 
 --Alan Uribe
+--Germain Vargas
 game::[[Int]]->IO ()
 game board 
     | (isWonBy board 1) = putStrLn x_wins
