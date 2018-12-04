@@ -6,18 +6,6 @@ module Board where
         if (n >= 0 && m >= 0)
             then take m (repeat (take n (repeat 0)))
             else[[0]]
-        
-    --rows :: Int->Int
-    --rows i = i
-    --cols :: Int->Int
-    --cols i = i
-    --board :: [[Int]]
-    --board = mkBoard rows cols
-    --mkPlayer :: Int
-    --mkPlayer = 1
-    --mkOpponent :: Int
-    --mkOpponent = 2
-    --ba = [[b | b <- bo,b == 0] | bo <- board]
     
     --isFull:: [[a]]->a
     isFull bd = if(null (concat[[b | b <- bo,b == 0] | bo <- bd]))
